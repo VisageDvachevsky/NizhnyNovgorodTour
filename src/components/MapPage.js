@@ -76,6 +76,7 @@ const Slider = styled.input.attrs({ type: 'range' })`
   height: 100px; 
   background: linear-gradient(to bottom, #ff7f50, #ff4500);
   border-radius: 5px;
+  align-items: center;
   outline: none;
   opacity: 0.8;
   transition: opacity 0.2s, transform 0.2s;
@@ -103,6 +104,7 @@ const Slider = styled.input.attrs({ type: 'range' })`
     border-radius: 50%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: background-color 0.2s;
+    margin-left: -6px;
 
     &:hover {
       background-color: #ff7f50;
@@ -124,6 +126,7 @@ const Slider = styled.input.attrs({ type: 'range' })`
     border-radius: 50%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: background-color 0.2s;
+    margin-left: -6px;
 
     &:hover {
       background-color: #ff7f50;
